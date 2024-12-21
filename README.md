@@ -14,13 +14,36 @@ pip install -r requirements.txt
 
 ### App terminal
 
-´´´
-python ./src/app-teminal.py
-´´´
+```
+python ./app/terminal_app.py
+```
 
 
 ### App Web
 
-´´´
-python ./src/app-web.py
-´´´
+```
+streamlit run ./app/web_app.py.py
+```
+
+## Cómo crear la BD
+
+En la consola creamos la db
+```
+sqlite3 financial_data.db
+```
+Luego creamos la data table
+```
+.schema 
+CREATE TABLE daily_open_close (
+    date TEXT NOT NULL, 
+    symbol TEXT NOT NULL,
+    open REAL NOT NULL,
+    close REAL NOT NULL,
+    high REAL NOT NULL,
+    low REAL NOT NULL,
+    volume INTEGER NOT NULL,
+    afterHours REAL NOT NULL,
+    preMarket REAL NOT NULL,
+    PRIMARY KEY (date, symbol)
+);
+```
