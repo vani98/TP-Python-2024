@@ -55,7 +55,7 @@ El programa se organiza en módulos para facilitar su mantenimiento y escalabili
       
         - config.py: Contiene valores de configuración para la aplicación.
     - img: Contiene las imágenes graficadas para el usuario.
-    - notebooks: Contiene las notebooks para pruebas y el informe de diseño.
+    - notebooks: Contiene las notebooks para pruebas.
       
 3. Flujo de datos:
     - El usuario interactúa con terminal_app.py.
@@ -102,5 +102,7 @@ El programa se organiza en módulos para facilitar su mantenimiento y escalabili
 El programa proporciona una solución eficiente para gestionar consultas financieras, integrando la funcionalidad de una base de datos y una API externa con herramientas de visualización. La estructura modular asegura la extensibilidad y el mantenimiento a largo plazo.
 
 ## Anexo
-- Ejemplo de salida en la terminal: 
+- Ejemplo de salida en la terminal:  
+![Terminal](https://raw.githubusercontent.com/vani98/TP-Python-2024/main/img/CapturaTerminal.PNG)
 - Ejemplo de gráfico:
+![Grafico](https://raw.githubusercontent.com/vani98/TP-Python-2024/main/img/grafico_2023-03-02.png)

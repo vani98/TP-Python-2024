@@ -18,13 +18,6 @@ pip install -r requirements.txt
 python ./app/terminal_app.py
 ```
 
-
-### App Web
-
-```
-streamlit run ./app/web_app.py
-```
-
 ## Cómo crear la BD
 
 En la consola creamos la db
