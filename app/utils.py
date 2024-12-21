@@ -25,7 +25,7 @@ def show_img(df):
 
         for row in df.itertuples():
             labels.append(row.ticker)
-            prices_diffs.append(row.open - row.close)
+            prices_diffs.append(row.close - row.open)
         width = 0.5
         x = range(len(df))
         plt.figure(figsize=(10, 6))
